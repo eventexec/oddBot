@@ -1,1 +1,1 @@
-web: python oddBot.py 0.0.0.0
+worker: python3 bot.py
