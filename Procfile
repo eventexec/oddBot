@@ -1,1 +1,1 @@
-web: python <script.py>
+web: python oddBot.py 0.0.0.0
