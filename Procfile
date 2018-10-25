@@ -1,1 +1,1 @@
-web: python oddBot.py $PORT
+web: python oddBot.py 0.0.0.0
