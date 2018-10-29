@@ -51,7 +51,7 @@ async def ff(context):
 
 @client.command()
 async def smitedan(message):
-    myid = '<@!201909896357216256>'
+    myid = '<@135896438881255424>'
     for x in range(5):
         await client.send_message(message.channel, ' : %s ZAPP!!! ' % myid)
     
