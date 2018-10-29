@@ -50,9 +50,9 @@ async def ff(context):
         await client.say("*CHICK* Yes! " + context.message.author.mention)
 
 @client.command()
-async def smitedan(context):
+async def smitedan():
     for x in range(25):
-        await client.say("@dantheman04" + " ZAP!!!")
+        await client.say("@dantheman04#3699" + " ZAP!!!")
     
 @client.event
 async def on_ready():
