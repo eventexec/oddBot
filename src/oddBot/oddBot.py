@@ -49,12 +49,8 @@ async def ff(context):
     else:
         await client.say("*CHICK* Yes! " + context.message.author.mention)
 
-@client.command(name='smitedan',
-                description="",
-                brief="Answer from the beyond.",
-                aliases=[],
-                pass_context=True)
-async def smitedan():
+@client.command()
+async def smitedan(context):
     for x in range(25):
         await client.say("@dantheman04" + " ZAP!!!")
     
