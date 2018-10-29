@@ -54,9 +54,9 @@ async def ff(context):
                 brief="Answer from the beyond.",
                 aliases=[],
                 pass_context=True)
-async def smitedan(context):
+async def smitedan():
     for x in range(25):
-        await client.say("" + context.message.author.mention + " ZAP!!!")
+        await client.say("@dantheman04" + " ZAP!!!")
     
 @client.event
 async def on_ready():
