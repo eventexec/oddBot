@@ -50,10 +50,16 @@ async def ff(context):
         await client.say("*CHICK* Yes! " + context.message.author.mention)
 
 @client.command()
-async def smitedan(message):
-    myid = '<@135896438881255424>'
+async def smitedan():
+    myid = '<@251489634628927489>'
     for x in range(5):
-        await client.send_message(message.channel, ' : %s ZAPP!!! ' % myid)
+        await client.say( '%s ZAPP!!! ' % myid)
+        
+@client.command()
+async def smiteriley():
+    myid = '<@131592523029151744>'
+    for x in range(5):
+        await client.say( '%s ZAPP!!! ' % myid)
     
 @client.event
 async def on_ready():
