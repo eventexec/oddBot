@@ -52,7 +52,7 @@ async def ff(context):
 @client.command()
 async def smitedan():
     for x in range(25):
-        await client.say("@251489634628927489" + " ZAP!!!")
+        await client.say("@!251489634628927489" + " ZAP!!!")
     
 @client.event
 async def on_ready():
